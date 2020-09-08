@@ -15,8 +15,8 @@ let container = document.querySelector('#chat-container');
 let subContainer = document.querySelector('.sub-container');
 let textInput = document.querySelector('#msgField');
 
-let greetings = "Hello I'm <b><i>Bot</i></b>. I help in creating simple shopping list quickly.";
-let howToMakeList = "Press the microphone icon and say 'make a shopping list' or 'make a list for shopping'.";
+let greetings = "Hello I'm <b><i>Wist Bot</i></b>. I help in creating simple shopping list quickly.";
+let howToMakeList = "Press the microphone icon and say <i>'make a shopping list'</i> or <i>'make a list for shopping'</i>. You can even add items to the list by saying something like <i>'add some more items'</i>.";
 showBotMsg(greetings);
 showBotMsg(howToMakeList);
 
