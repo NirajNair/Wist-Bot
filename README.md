@@ -11,7 +11,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot](dist/images/send.png)
+[![Product Name Screen Shot](dist/images/screenshot.png)
 
 WIst bot can be used to create shopping list on the go using voice to text feature. It uses NLP to recognize the converted text and go forward with the response.
 Why you should use this:
