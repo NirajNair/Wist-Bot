@@ -1,7 +1,7 @@
 <br />
 <p align="center">
-  <h3 align="center">Wist Bot</h3>
-  <p align="center">
+  <h1 align="center">Wist Bot</h3>
+  <h3 align="center">
     An NLP based chat bot to create a list for shopping!
     <br />
     <br /
