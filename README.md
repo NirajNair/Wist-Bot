@@ -1,11 +1,6 @@
 <br />
 <p align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
-  </a>
-
   <h3 align="center">Wist Bot</h3>
-
   <p align="center">
     An NLP based chat bot to create a list for shopping!
     <br />
@@ -16,7 +11,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+[![Product Name Screen Shot](dist/images/send.png)
 
 WIst bot can be used to create shopping list on the go using voice to text feature. It uses NLP to recognize the converted text and go forward with the response.
 Why you should use this:
