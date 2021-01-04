@@ -1,16 +1,3 @@
-// async function registerSW(){
-//     if('serviceWorker' in navigator){
-//         try{
-//             await navigator.serviceWorker.register('../sw.js');
-//             console.log("SW registration success");
-//         }catch (e){
-//             console.log("SW registration failed");
-//         }
-//     }
-// }
-
-// registerSW();
-
 let container = document.querySelector('#chat-container');
 let subContainer = document.querySelector('.sub-container');
 let textInput = document.querySelector('#msgField');
@@ -41,32 +28,6 @@ function sendMsgToServer(userMsg){
             }
         });
 }
-
-// document.getElementById('button-addon2')
-//                     .addEventListener('click', function(){
-//                         userMsg = textInput.value;
-//                         if(userMsg == ""){
-//                             console.log("empty");
-//                             return;
-//                         }
-//                         sendMsgToServer(userMsg);
-//                         showUserMsg(userMsg);
-//                         // showBotMsg(userMsg);
-//                     })
-// document.getElementById('msgField')
-//                     .addEventListener('keyup', function(e){
-//                         userMsg = textInput.value;
-//                         if(e.keyCode === 13){
-//                             console.log("enter works");
-//                             if(userMsg == ""){
-//                                 console.log("empty");
-//                                 return;
-//                             }
-//                             sendMsgToServer(userMsg);
-//                             showUserMsg(userMsg);
-//                             // showBotMsg(userMsg);
-//                         }
-//                     });
 
 function addCheckBox(msg) {
     checkBox = `<input  type="checkbox"><label id="itemLabel"> ${msg}</label>`;
